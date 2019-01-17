@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        titleView.text = "Otsikko"
+        titleView.text = "Otsikko testi 2"
 
     }
 }
