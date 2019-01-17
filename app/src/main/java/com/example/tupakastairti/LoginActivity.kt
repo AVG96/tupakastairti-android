@@ -16,6 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
         loginBtn.setOnClickListener {
             val intent = Intent(applicationContext, MainActivity::class.java)
+            intent.putExtra("usernameIntent", "Käyttäjännimi on toni")
             startActivity(intent)
         }
 
