@@ -14,5 +14,7 @@ class MainActivity : AppCompatActivity() {
         val username = intent.getStringExtra("usernameIntent")
         username_textview.text = username
 
+        //Tämä toimii ehkäpä
+
     }
 }
